@@ -21,6 +21,7 @@ The test.js file contains some examples.
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Resources](#resources)
 
 ## Regex Components
 
@@ -61,6 +62,7 @@ The test.js file contains some examples.
     These components allow searches before or after a certain character. 
 
     Look-ahead is indicated by (?) where as look-behind is indicated by (?!)
-
+### Resources
+    If you're looking to practice regular expressions and understand them more deeply, checkout [https://regexr.com/](https://regexr.com/).
 ## Author
 Thanks for reading! Please feel free to reach out via [email](mailto:merel.burleigh@gmail.com) with any questions or comments. 

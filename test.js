@@ -38,7 +38,5 @@ console.log(backReference.test("<div>Test</span>"));    // Output: false
 //look-ahead
 const lookAhead = /\d+(?! euros)/;
 
-console.log("The price is 10 dollars".match(lookAhead
-));  // Output: [ '10', index: 13, input: 'The price is 10 dollars' ]
-console.log("The price is 20 euros".match(lookAhead
-));    // Output: null
+console.log("The price is 10 dollars".match(lookAhead));  // Output: [ '10', index: 13, input: 'The price is 10 dollars' ]
+console.log("The price is 20 euros".match(lookAhead));    // Output: null
